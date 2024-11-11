@@ -65,4 +65,21 @@ a{
 }
 .container{
     flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#rating img{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 800px) {
+    div{
+        flex-direction: column;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    img{
+        width: 100%;
+    }
 }
