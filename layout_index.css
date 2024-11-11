@@ -71,15 +71,27 @@
     text-decoration: none;
     color: black;
 }
-
+#direc #contact{
+    font-size: 20px;
+}
+#direc #contact p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 800px) {
     #headline h1{
-        padding-top: 10px;
+        padding-top: 0px;
+    }
+    #headline p{
+        font-size: 20px;
     }
     #direc{
         flex-direction: column;
     }
     #direc iframe{
         width: 100%;
+    }
+    #direc #contact{
+        margin: 10px 0px;
     }
   }
